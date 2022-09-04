@@ -20,7 +20,7 @@ pkgrel=1
 pkgdesc="A lightweight speech synthesis engine (All configuration options included)"
 arch=(
   x86_64
-  )
+)
 url="http://www.festvox.org/flite/"
 license=(custom)
 depends=(
@@ -28,15 +28,15 @@ depends=(
 )
 makedepends=(
   "chrpath"
-  )
+)
 provides=(
-  "flite" 
+  "flite"
   "libflite"
 )
 conflicts=(
   "flite"
-   "flite1"
-    "flite1-patched"
+  "flite1"
+  "flite1-patched"
 )
 source=(
   "https://github.com/festvox/flite/archive/v$pkgver/${_relname}-$pkgver.tar.gz"
